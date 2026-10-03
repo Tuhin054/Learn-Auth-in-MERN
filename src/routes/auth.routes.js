@@ -5,6 +5,6 @@ const authRoute = Router();
 
 authRoute.post("/register", authController.register);
 
-//authRoute.get("/get-me",authController.getMe)
+authRoute.get("/get-me",authController.getMe)
 
 export default authRoute;
